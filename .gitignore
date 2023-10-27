@@ -1,0 +1,4 @@
+mongodb_atlas.txt
+/server/node_modules/
+.env
+env.local

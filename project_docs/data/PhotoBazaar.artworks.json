@@ -1,0 +1,32 @@
+[{
+  "_id": {
+    "$oid": "651de30ffdfd2d7f5a11d99a"
+  },
+  "title": "Beautiful Landscape",
+  "tags": [
+    {
+      "tag_id": "tag1_id",
+      "tag": "tag1"
+    },
+    {
+      "tag_id": "tag2_id",
+      "tag": "tag2"
+    }
+  ],
+  "description": "A stunning landscape painting.",
+  "cover_url": "http://example.com/artwork_1_cover.jpg",
+  "author_id": "user1_id",
+  "price": 199.99,
+  "upload_time": "2023-10-04T12:00:00Z",
+  "modify_time": "2023-10-04T12:00:00Z",
+  "photos": [
+    {
+      "file_id": "file1_id",
+      "file_url": "https://example.com/artwork/file1.jpg"
+    },
+    {
+      "file_id": "file2_id",
+      "file_url": "https://example.com/artwork/file2.jpg"
+    }
+  ]
+}]

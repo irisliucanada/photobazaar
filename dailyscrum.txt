@@ -1,0 +1,192 @@
+2023/10/9
+
+Shiyuan
+1.  Done / not done since last scrum:
+- created project on mongoDB Atlas
+- created initDB.js to create the database and insert example data
+- initialed the project
+- wrote the tags api 
+2. To do until next Scrum:
+- research and choose a solution for message function 
+3. Need assistance / figure things out
+N/A
+
+Chang Liu
+1.  Done
+- run the project 
+- complete the login/signup/forget passowrd API using stytch.
+2. To do
+- Add third party email login API
+
+Xiaoxing Pan
+1.  Done
+- set Trello and user stories 
+- set S3 bucket
+2. To do
+- upload image to S3 bucket and store url in db
+- artwork interface
+
+2023/10/10
+Shiyuan
+1.  Done / not done since last scrum:
+- choose socket.io to implement message function
+- message function: backend database operation
+2. To do until next Scrum:
+- create a frontend interface for message function
+- test the backend crud code of the message function
+Chang Liu
+1.Done
+-use mailgun to implement reset password function
+2. To do
+- integrate the front end to the project
+Xiaoxing Pan
+1.  Done
+- header/footer 
+- artwork.model and artwork controller-getAll
+2. To do
+- artwork other back-end
+
+2023/10/11
+Shiyuan
+1.  Done / not done since last scrum:
+- created a message frontend structure
+    - users list and search user
+    - message box
+    - switch user chatting with
+    - send message
+- store message to db
+2. To do until next Scrum:
+- send private message to indicated user
+- receive message and refresh message box
+Chang Liu
+1. Done
+integrate login/register/forgot password into project from backend
+2. Todo
+add login/register/forget password with authentication from backend
+Xiaoxing Pan
+1.  Done
+- artwork model and artwork controller and self-testing on postman
+- artworkList page
+2. To do
+- artwork front-end: show artwork details, artwork crud
+
+2023/10/12
+Xiaoxing Pan
+1.  Done
+- addArtwork front-end 
+2. To do
+- addArtwork back-end
+3. Challenge
+- validate the information in addArtwork pages
+- upload multiple files to s3
+
+Shiyuan
+1. Done
+- Send message to indicated user
+- receive message and show
+2. To do
+- Research implementation of payment function
+
+Chang Liu
+1. Done
+integrate the verification email function for reset password using mailgun
+2. to do
+integrate the verification email function for register new user
+
+
+
+2023/10/13
+Shiyuan
+1. Done
+- Choose stripe to implement payment
+- checkout form
+2. To do
+- Payment data storage, retrieve and update
+Chang Liu
+1. in progress
+investigate new method for sending verification email since maigun needs to upgrade to memberships
+2023/10/15
+Xiaoxing Pan
+1.  Done
+- addArtwork back-end: multiple files upload to s3, create artwork record 
+2. To do
+- update tag and artwork table after artwork created
+3. Challenge
+- validate the information in addArtwork pages
+
+
+
+2023/10/14
+Shiyuan
+1. Done
+- payment form
+    - retrieve payment status
+    - update is_paid if payment status is succeded
+    - notice user payment status if something wrong
+    - apply payment intent and finish payment with checkout form if payment available
+    - payment with stripe
+2. To do
+- test payment function with a payment page
+- renew header to show different menu based on login status and role
+Xiaoxing Pan
+1.  Done
+- addArtwork back-end and self-testing
+2. To do
+- artwork details and update front-end
+3. Challenge
+
+
+2023/10/16
+Shiyuan
+1. Done
+- tested payment function
+- updated header
+2. To do
+- Fixed the bug caused by multiple payment attempts in the Stripe backend
+- renew header to show different menu based on login status and role
+- Send and receive messages using logged in users
+Chang liu
+1. Done
+- finished the login /register/ forgot password integration into project
+- change all alerts in front end to messages in page
+2. To do
+-  My profile
+Xiaoxing Pan
+1.  Done
+- update artwork main info 
+2. To do
+- show photos of a artwork and update
+
+2023/10/17
+Chang Liu
+1. Done
+- finished the user profile page
+2. To do
+- finished the admin page
+Xiaoxing Pan
+1.  Done
+- update/add photos in a artwork
+- artwork detail page, show all the photoes
+2. To do
+- show asset page, show inside photo, remove artwork from my_asset, download photos from my_asset
+- cart
+Shiyuan Xu
+1. Done
+- fixed payment
+- renew header
+- finished messages functionality
+2. To do 
+- Debug payment
+- Debug messages
+
+2023/10/18
+1. Done
+- Payment Debug
+- Messages Debug
+2. To do
+- Admin payment record
+Chang Liu
+1. Done
+- admin can view user list, artwork list, tag list
+2. To do
+- admin can search artwork

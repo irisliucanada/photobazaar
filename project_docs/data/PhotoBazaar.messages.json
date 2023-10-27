@@ -1,0 +1,10 @@
+[{
+  "_id": {
+    "$oid": "651ee938ecb34702a7a60a68"
+  },
+  "sender_id": "user1_id",
+  "receiver_id": "user2_id",
+  "send_time": "2023-10-04T15:30:00Z",
+  "isread": false,
+  "message": "Helllo!"
+}]

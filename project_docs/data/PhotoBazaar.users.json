@@ -1,0 +1,19 @@
+[{
+  "_id": {
+    "$oid": "651dc2b4ea01c77b8f86c45c"
+  },
+  "username": "user123",
+  "password": "hashed_password",
+  "email": "user123@email.com",
+  "role": "user",
+  "avatar": "http://www.example.com/user123_avatar.jpg",
+  "my_assets": [
+    {
+      "artwork_id": "wPERJGIPO4ITUPRGH"
+    },
+    {
+      "artwork_id": "jfeawopigh923u98e"
+    }
+  ],
+  "nickname": "John Doe"
+}]

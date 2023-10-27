@@ -1,0 +1,12 @@
+[{
+  "_id": {
+    "$oid": "651dd43cfdfd2d7f5a11d991"
+  },
+  "seller_id": "user1_id",
+  "buyer_id": "user2_id",
+  "artwork_id": "artwork1_id",
+  "purchase_time": "2023-10-04T15:30:00Z",
+  "is_paid": true,
+  "transaction_price": "199.99",
+  "transaction_ref": "transaction_number"
+}]
